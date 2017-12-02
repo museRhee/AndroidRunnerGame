@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.company.muse.cultrun.StartActivity"
+    android:background="@drawable/startimage">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/button_quit"
+        android:id="@+id/BtnQuit"
+        android:background="@drawable/button_quit"
+        android:layout_marginRight="22dp"
+        android:layout_marginStart="80dp"
+        android:layout_alignTop="@+id/BtnStart"
+        android:layout_toEndOf="@+id/BtnStart" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/button_start"
+        android:id="@+id/BtnStart"
+        android:background="@drawable/button_start"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
